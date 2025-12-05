@@ -1,0 +1,30 @@
+// PrimeroSrv.jsx
+// This code uses your custom colors and monospace font
+const PrimeroSRV = () => {
+  return (
+    <div style={{
+      color: '#0D9B91', // Matrix Green
+      backgroundColor: 'black',
+      minHeight: '100vh',
+      padding: '2rem',
+      fontFamily: 'monospace',
+      textAlign: 'center'
+    }}>
+      <h1>PRIMERO SRV LLC</h1>
+      <p style={{ color: '#FFD700', fontSize: '1.2rem', marginTop: '1rem' }}>
+        STATUS: ARCHITECTURE VERIFIED
+      </p>
+      <p style={{ color: '#32CD32', fontSize: '2rem' }}>
+        STRIPE CONNECTED: READY
+      </p>
+      <p style={{ color: '#999', fontSize: '0.8rem', marginTop: '2rem' }}>
+        Live Beam Initiated.
+      </p>
+    </div>
+  );
+};
+
+ReactDOM.render(
+  <PrimeroSRV />,
+  document.getElementById('root')
+);
